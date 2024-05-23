@@ -1,0 +1,16 @@
+#sidebar {
+   position: relative;
+   left: -400px;
+
+   transition: all 0.5s ease-in-out;
+
+   width: 400px;
+   height: calc(100vh - 80px);
+   background-color: #1f2b40;
+   padding: 20px 20px;
+   color: white;
+}
+
+.active-sidebar {
+   left: 0px !important;
+}
